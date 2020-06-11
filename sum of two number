@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>add two numbers</title>
+		<script language="javascript">
+			function add(){
+				var x = parseInt(document.getElementById('val1').value);
+				var y = parseInt(document.getElementById('val2').value);
+				var ansD = document.getElementById('result');
+				ansD.value = x+y;
+			}
+		</script>
+	</head>
+	<body>
+		<input type="text" name="val1" placeholder="number 1" id="val1">
+		<input type="text" name="val2" placeholder="number 2" id="val2">
+		<input type="button" name="submit" value="sum" onclick="javascript:add()">
+		<input type="text" id="result" name="result" value="">
+	</body>
+</html>
